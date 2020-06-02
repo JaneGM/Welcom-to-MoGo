@@ -1,0 +1,12 @@
+@import "zeroing";
+@import "Header";
+@import "https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:wght@400;700&family=Roboto:ital,wght@0,400;1,300&display=swap";
+@import "../fontawesome/css/fontawesome-all.css";
+$FF_Montserrat: 'Montserrat', sans-serif;
+$FF_Roboto: 'Roboto', sans-serif;
+$FF_Kaushan:'Kaushan Script', cursive;
+@mixin max-screen($res) {
+  @media screen and (max-width: $res) {
+    @content;
+  }
+}
